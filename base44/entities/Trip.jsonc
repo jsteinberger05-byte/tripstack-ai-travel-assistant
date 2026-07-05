@@ -1,0 +1,57 @@
+{
+  "name": "Trip",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "destinations": {
+      "type": "string"
+    },
+    "depart_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "days": {
+      "type": "number"
+    },
+    "travelers": {
+      "type": "number"
+    },
+    "budget": {
+      "type": "number"
+    },
+    "vibe": {
+      "type": "string"
+    },
+    "hotel_style": {
+      "type": "string"
+    },
+    "flight_priority": {
+      "type": "string"
+    },
+    "flights": {
+      "type": "string"
+    },
+    "hotels": {
+      "type": "string"
+    },
+    "itinerary": {
+      "type": "string"
+    },
+    "overall_score": {
+      "type": "number"
+    },
+    "user_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "origin",
+    "destinations"
+  ]
+}

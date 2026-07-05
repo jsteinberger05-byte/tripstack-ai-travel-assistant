@@ -1,0 +1,24 @@
+{
+  "name": "AppSettings",
+  "type": "object",
+  "properties": {
+    "default_origin": {
+      "type": "string"
+    },
+    "default_budget": {
+      "type": "number"
+    },
+    "max_trip_days": {
+      "type": "number"
+    },
+    "sample_trips_enabled": {
+      "type": "boolean"
+    },
+    "supported_vibes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "default_origin"
+  ]
+}

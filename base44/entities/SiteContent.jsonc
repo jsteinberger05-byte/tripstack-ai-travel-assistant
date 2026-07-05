@@ -1,0 +1,27 @@
+{
+  "name": "SiteContent",
+  "type": "object",
+  "properties": {
+    "brand_name": {
+      "type": "string"
+    },
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_subtitle": {
+      "type": "string"
+    },
+    "nav_subtitle": {
+      "type": "string"
+    },
+    "primary_button_text": {
+      "type": "string"
+    },
+    "sample_button_text": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "brand_name"
+  ]
+}
